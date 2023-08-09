@@ -38,7 +38,7 @@ const Example = () => {
 
 ### htmlParserOptions & sanitizerConfig
 - [html-react-parser Options](https://github.com/remarkablemark/html-react-parser#usage)
-- [Dompurify Config](https://github.com/cure53/DOMPurify#can-i-configure-dompurify)
+- [DOMPurify Config](https://github.com/cure53/DOMPurify#can-i-configure-dompurify)
 
 ```tsx
 import ReactSanitizerParser from './ReactSanitizerParser';
@@ -61,4 +61,11 @@ const Example = () => {
     </ReactSanitizerParser>
   );
 }
+```
+
+### parse, DOMPurify
+If you need to, you can use the `parse` method of html-react-parser and DOMPurify's `DOMPurify` directly.
+
+```tsx
+import ReactSanitizerParser, { parse, DOMPurify } from "react-sanitizer-parser";
 ```

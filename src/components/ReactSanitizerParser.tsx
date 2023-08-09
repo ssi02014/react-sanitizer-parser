@@ -27,6 +27,4 @@ const ReactSanitizerParser = ({
   );
 };
 
-export type { HTMLReactParserOptions, SanitizerConfig };
-export { parse, DOMPurify };
 export default ReactSanitizerParser;
