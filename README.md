@@ -19,7 +19,7 @@ yarn add react-sanitizer-parser
 
 ## Usage
 ```tsx
-import ReactSanitizerParser from './ReactSanitizerParser';
+import ReactSanitizerParser from "react-sanitizer-parser";
 
 const Example = () => {
   const dirty = `
@@ -41,7 +41,7 @@ const Example = () => {
 - [DOMPurify Config](https://github.com/cure53/DOMPurify#can-i-configure-dompurify)
 
 ```tsx
-import ReactSanitizerParser from './ReactSanitizerParser';
+import ReactSanitizerParser from "react-sanitizer-parser";
 
 const Example = () => {
   const dirty = `
