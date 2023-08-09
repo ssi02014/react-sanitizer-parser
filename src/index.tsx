@@ -1,8 +1,10 @@
-export { parse, DOMPurify } from '@components/ReactSanitizerParser';
+import ReactSanitizerParser from './components/ReactSanitizerParser';
 
-export type {
+import { parse, DOMPurify } from './components/ReactSanitizerParser';
+import type {
   HTMLReactParserOptions,
   SanitizerConfig,
-} from '@components/ReactSanitizerParser';
+} from './components/ReactSanitizerParser';
 
-export default '@components/ReactSanitizerParser';
+export { parse, DOMPurify, HTMLReactParserOptions, SanitizerConfig };
+export default ReactSanitizerParser;
