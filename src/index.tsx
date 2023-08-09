@@ -1,1 +1,1 @@
-export { default as Button } from '@components/Example';
+export { default as ReactSanitizerParser } from '@components/ReactSanitizerParser';
