@@ -1,1 +1,1 @@
-{"v":4,"entries":{"components-example--default":{"id":"components-example--default","title":"components/Example","name":"Default","importPath":"./src/stories/Example.stories.tsx","tags":["story"],"type":"story"}}}
+{"v":4,"entries":{"components-reactsanitizerparser--default":{"id":"components-reactsanitizerparser--default","title":"components/ReactSanitizerParser","name":"Default","importPath":"./src/stories/ReactSanitizerParser.stories.tsx","tags":["story"],"type":"story"}}}
