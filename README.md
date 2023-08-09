@@ -68,4 +68,14 @@ If you need to, you can use the `parse` method of html-react-parser and DOMPurif
 
 ```tsx
 import ReactSanitizerParser, { parse, DOMPurify } from "react-sanitizer-parser";
+
+function App() {
+  console.log(DOMPurify.sanitize("<img src=x onerror=alert(1)//>")); // <img src="x">
+  return (
+    <>
+      {parse("<div>React</div>")}
+      <ReactSanitizerParser>{`<div>React</div>`}</ReactSanitizerParser>
+    </>
+  );
+}
 ```
